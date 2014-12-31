@@ -1,0 +1,192 @@
+
+@media
+only screen and (max-width: 760px) {
+    .gray-body {
+        background: none repeat scroll 0 0 #EEEEEE;
+        /*position: fixed;*/
+        /*z-index: 0;*/
+        right: 0;
+        left: 0;
+        top: 0;
+    }
+
+    a:active {
+        text-decoration: none;
+    }
+
+    .search-box{
+        width: 100%;
+        padding-right: 0px;
+        margin-top: 110px;
+        position: fixed;
+        /*z-index: 0;*/
+        right: 0;
+        left: 0;
+        top: 0;
+    }
+    .search-box .glogo{
+        background-image: url(/images/mlogo2x_3.png);
+        background-repeat:  no-repeat;
+        background-size:183px 64px;
+        height:64px;
+        width:183px;
+        margin:0 auto 20px;
+    }
+    .search-box .glogo .tname {
+        font-size:12px;
+        left:148px;
+        top:48px;
+    }
+    .search-box .s_box {
+        padding: 0px 2px 0px 10px;
+        height: 50px;
+        width: 100%;
+    }
+
+    .search-box .s_text {
+        width: 77%;
+        line-height: 38px;
+        height: 38px;
+        font-size: 17px;
+        padding-left: 0px;
+    }
+
+    .search-box .m-button {
+        padding: 0px;
+        margin:  0px 2px 0px 0px;
+        height: 42px;
+        width: 60px;
+    }
+
+    .header-bar{
+        background-color: white;
+        height: 50px;
+        padding-top:10px;
+        padding-bottom:0px;
+    }
+
+    .form_box{
+        display:block;
+        margin-top: 0px;
+        margin-left: 7px;
+        /*float: right;*/
+    }
+
+    .form_box .s_text{
+        height: 40px;
+        line-height: 40px;
+        width:77%;
+        font-size: 16px;
+        /*width: 140px;*/
+        /*width: 233px;*/
+    }
+
+    .logo{
+        display:none;
+        /*padding-left:5px;*/
+        /*padding-right:0px;*/
+        /*float: left;*/
+    }
+
+    .form_box .s_submit{
+        margin-left: 0px;
+        width: 52px;
+        height: 44px;
+    }
+
+    .content {
+        margin: 75px 7px 7px;
+    }
+
+    .search_result .s_r {
+        background-color: white;
+        margin-top: 8px;
+        margin-bottom:0px;
+        padding: 4px;
+    }
+
+    .s_r .title{
+        line-height: 1.4;
+    }
+
+    .s_r .visible_url{
+        line-height: 1.5;
+    }
+
+    .s_r .min_content{
+        line-height: 1.7;
+        font-size: 14px;
+    }
+
+    .search_result{
+        margin-left:0px;
+        width:100%;
+    }
+
+    .result_stats{
+        display: none;
+    }
+
+    .navcnt {
+        margin: 25px auto;
+        width: 100%;
+    }
+
+    .navcnt table{
+        display: none;
+    }
+
+    .next_page {
+        display: inline-block;
+        padding: 8px 8px;
+        background-color: white;
+        text-align: center;
+        width: 30%;
+        line-height: 1.4;
+        word-wrap: break-word;
+        color: #545454;
+        font-size:16px;
+        margin-bottom: 12px;
+    }
+
+    .shadow {
+        -moz-box-shadow: 1px 1px 2px #aaaaaa;
+        -webkit-box-shadow: 1px 1px 2px #aaaaaa;
+        box-shadow: 1px 1px 2px #aaaaaa;
+    }
+    /*相关搜索隐藏*/
+    #extrares {
+        /*display: none;*/
+        margin-left:0px;
+        font-family: arial,sans-serif;
+        width:95%;
+        margin-top: 8px;
+        padding-bottom: 8px;
+        /*border-top:1px solid #ededed;*/
+        background-color: white;
+    }
+
+    #extrares ._e4b a{
+        font-size: 15px
+    }
+
+    #extrares h3 {
+        border-bottom:1px solid #ededed;
+        padding-bottom: 11px;
+        margin-bottom: 9px;
+    }
+
+    .nextTip {
+        font-size: 11px;
+        color: #777777;
+        margin: 5px;
+    }
+
+    .none-result {
+        margin-left: 10px
+    }
+
+    .none-result ul{
+        margin-left: 0
+    }
+}
